@@ -10,10 +10,16 @@ public class SpiderJumper : MonoBehaviour
     private Rigidbody2D myBody;
     private Animator anim;
 
+    void Awake()
+    {
+        myBody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        StartCoroutine(Attack());
     }
 
     IEnumerator Attack()
