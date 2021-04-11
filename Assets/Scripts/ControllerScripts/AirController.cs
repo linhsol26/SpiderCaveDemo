@@ -33,6 +33,7 @@ public class AirController : MonoBehaviour
             slider.value = air;
         } else
         {
+            GetComponent<GamePlayController>().PlayerDied();
             Destroy(player);
         }
     }

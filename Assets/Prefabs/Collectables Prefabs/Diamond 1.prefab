@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 8836188841995839858}
   - component: {fileID: 7052268539256714849}
   - component: {fileID: 5674831733914470646}
-  m_Layer: 0
+  - component: {fileID: 4388166319593809442}
+  m_Layer: 7
   m_Name: Diamond 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 3738684955690558537, guid: b4e0341ffd1a5a242814ce9217b07033, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.7, y: 1.55}
   m_EdgeRadius: 0
+--- !u!114 &4388166319593809442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400240285961375112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e493e1bfea464449335e178e0777c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

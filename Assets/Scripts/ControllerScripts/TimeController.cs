@@ -33,6 +33,7 @@ public class TimeController : MonoBehaviour
         }
         else
         {
+            GetComponent<GamePlayController>().PlayerDied();
             Destroy(player);
         }
     }

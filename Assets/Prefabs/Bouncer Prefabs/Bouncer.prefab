@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6425541256914408391}
   - component: {fileID: 391070638080902427}
   - component: {fileID: 6426059935571725759}
+  - component: {fileID: 4663183020537570317}
   m_Layer: 0
   m_Name: Bouncer
   m_TagString: Untagged
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 5041098824909643658, guid: 0fdbed18f5a64904395bb959cff5bd17, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -113,7 +114,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.19426692}
@@ -129,3 +130,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.45, y: 0.13146615}
   m_EdgeRadius: 0
+--- !u!114 &4663183020537570317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5122110027666934402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ba4ba0311443a04b9162ee63b432415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 800

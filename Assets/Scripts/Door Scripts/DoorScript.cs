@@ -50,7 +50,7 @@ public class DoorScript : MonoBehaviour
     {
         if (target.tag == "Player")
         {
-            Debug.Log("Finish");
+            GameObject.Find("GamePlay Controller").GetComponent<GamePlayController>().PlayerDied();
         }
     }
 
